@@ -41,7 +41,7 @@ class App
             return;
         }
 
-        $cacheFolder = __DIR__ . '..' . DIRECTORY_SEPARATOR . 'cache' . DIRECTORY_SEPARATOR;
+        $cacheFolder = __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'cache' . DIRECTORY_SEPARATOR;
 
         if (! file_exists($cacheFolder)) {
             mkdir($cacheFolder);
